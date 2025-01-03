@@ -1,0 +1,8 @@
+[2025-01-03 18:54:19.466565] - [INFO] - [DROP] - [unique_ai_tweets_with_issues.csv] - Eliminando filas con valores nulos y errores de formato que no sigan el esquema.
+[2025-01-03 18:54:19.467564] - [INFO] - [WRITE] - [tweets_bronze.csv] - Guardando el archivo en formato csv.
+[2025-01-03 18:54:23.106085] - [INFO] - [WRITE] - [tweets_silver.csv] - Identificando hashtags y almacenando como CSV.
+[2025-01-03 18:54:23.138609] - [INFO] - [WRITE] - [hashtags_silver.csv] - Agrupamos hashtags por mes y año
+[2025-01-03 18:54:23.139608] - [INFO] - [WRITE] - [hashtags_silver.csv] - Calculamos score y sentiment_score y almacenamos en CSV
+[2025-01-03 18:57:51.811144] - [INFO] - [WRITE] - [tweets_gold.csv] - Identificando hashtags y almacenando como CSV.
+[2025-01-03 18:57:51.845204] - [INFO] - [WRITE] - [hashtags_gold.csv] - Agrupamos hashtags por mes y año
+[2025-01-03 18:57:51.847182] - [INFO] - [WRITE] - [hashtags_gold.csv] - Calculamos score y sentiment_score y almacenamos en CSV
